@@ -2,12 +2,18 @@
 // var createElement = wp.element.createElement;
 
 import { registerBlockType } from "@wordpress/blocks";
+import { useBlockProps } from "@wordpress/block-editor";
+import "./style.scss";
+import "./editor.scss";
 
 registerBlockType("zoduaks/myblock", {
+
 	edit: function() {
-		return <h1 className="admin_title">Edit 2</h1>;
+		const blockProps = useBlockProps();
+		return <h1 {...blockProps}>Edit 2</h1>;
 	},
 	save: function() {
-		return <h1 className="front_title">Save 2</h1>;
+		const blockProps = useBlockProps.save();
+		return <h1 {...blockProps}>Save 3</h1>;
 	}
 });

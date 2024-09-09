@@ -1,0 +1,1 @@
+{"version":3,"file":"index.css","mappings":";;;AAAA;EACE;EACA;EACA;AACF,C","sources":["webpack://myblock/./src/editor.scss"],"sourcesContent":[".wp-block-zoduaks-myblock {\r\n  font-size: 18px;\r\n  text-decoration: underline;\r\n  font-weight: bold;\r\n}"],"names":[],"sourceRoot":""}
