@@ -1,0 +1,10 @@
+{
+	"apiVersion" : 2,
+	"name" : "zoduaks/myblock",
+	"title" : "My Block",
+	"description" : "Guttenberg block",
+	"category" : "text",
+	"icon" : "admin-customizer",
+	"textdomain" : "myblock",
+	"editorScript" : "file:./build/index.js"
+}
