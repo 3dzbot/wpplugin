@@ -1,8 +1,15 @@
-import { useBlockProps } from '@wordpress/block-editor';
+import { useBlockProps, RichText } from '@wordpress/block-editor';
 import './editor.scss';
 
-export default function edit() {
-	// eslint-disable-next-line react-hooks/rules-of-hooks
-	const blockProps = useBlockProps();
-	return <h1 { ...blockProps }>Edit 2</h1>;
+export default function edit( { attributes, setAttributes } ) {
+	const { text } = attributes;
+	return (
+		<RichText
+			{ ...useBlockProps() }
+			tagName="h2"
+			value={ text }
+			onChange={ ( value ) => setAttributes( { text: value } ) }
+			placeholder={ 'Введите заголовок' }
+		/>
+	);
 }

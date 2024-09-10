@@ -1,1 +1,1 @@
-{"version":3,"file":"./style-index.css","mappings":";;;AAAA;EACE;AACF,C","sources":["webpack://myblock/./src/style.scss"],"sourcesContent":[".wp-block-zoduaks-myblock {\r\n  font-size: 16px;\r\n}"],"names":[],"sourceRoot":""}
+{"version":3,"file":"./style-index.css","mappings":";;;AAAA;EACE;EACA;AACF,C","sources":["webpack://myblock/./src/style.scss"],"sourcesContent":[".wp-block-zoduaks-myblock {\r\n  font-size: 16px;\r\n  line-height: 1.1;\r\n}\r\n"],"names":[],"sourceRoot":""}
