@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "@wordpress/block-editor": "^14.2.0",
-    "@wordpress/blocks": "^13.7.0"
+    "@wordpress/blocks": "^13.7.0",
+    "@wordpress/components": "^28.7.0"
   }
 }
