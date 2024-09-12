@@ -7,7 +7,7 @@ export default function save( { attributes } ) {
 			{ ...useBlockProps.save( {
 				className: `zoduaks-align-${ align }`,
 			} ) }
-			tagName="h3"
+			tagName="h2"
 			value={ text }
 			// style={ { textAlign: align } }
 		/>
