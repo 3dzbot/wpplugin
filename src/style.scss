@@ -1,4 +1,16 @@
 .wp-block-zoduaks-myblock {
   font-size: 16px;
   line-height: 1.1;
+
+  &.zoduaks-align {
+    &-left {
+      text-align: left;
+    }
+    &-center {
+      text-align: center;
+    }
+    &-right {
+      text-align: right;
+    }
+  }
 }

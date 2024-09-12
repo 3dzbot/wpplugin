@@ -5,5 +5,14 @@
   font-size: 16px;
   line-height: 1.1;
 }
+.wp-block-zoduaks-myblock.zoduaks-align-left {
+  text-align: left;
+}
+.wp-block-zoduaks-myblock.zoduaks-align-center {
+  text-align: center;
+}
+.wp-block-zoduaks-myblock.zoduaks-align-right {
+  text-align: right;
+}
 
 /*# sourceMappingURL=style-index.css.map*/
