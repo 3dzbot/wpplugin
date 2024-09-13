@@ -1,17 +1,17 @@
 /*!***************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
   \***************************************************************************************************************************************************************************************************************************************/
-.wp-block-zoduaks-myblock {
+.wp-block-zoduaks-myblocks {
   font-size: 16px;
   line-height: 1.1;
 }
-.wp-block-zoduaks-myblock.zoduaks-align-left {
+.wp-block-zoduaks-myblocks.zoduaks-align-left {
   text-align: left;
 }
-.wp-block-zoduaks-myblock.zoduaks-align-center {
+.wp-block-zoduaks-myblocks.zoduaks-align-center {
   text-align: center;
 }
-.wp-block-zoduaks-myblock.zoduaks-align-right {
+.wp-block-zoduaks-myblocks.zoduaks-align-right {
   text-align: right;
 }
 

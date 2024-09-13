@@ -1,15 +1,9 @@
-import { useBlockProps, RichText } from '@wordpress/block-editor';
+import {InnerBlocks, useBlockProps} from '@wordpress/block-editor';
 
-export default function save( { attributes } ) {
-	const { text, align } = attributes;
+export default function save() {
 	return (
-		<RichText.Content
-			{ ...useBlockProps.save( {
-				className: `zoduaks-align-${ align }`,
-			} ) }
-			tagName="h2"
-			value={ text }
-			// style={ { textAlign: align } }
-		/>
+		<div { ...useBlockProps.save() }>
+			<InnerBlocks.Content />
+		</div>
 	);
 }
